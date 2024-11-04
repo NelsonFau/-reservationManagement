@@ -1,0 +1,15 @@
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\obj\Debug\net6.0\obligatorioGestionReservaHotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\obj\Debug\net6.0\obligatorioGestionReservaHotel.AssemblyInfoInputs.cache
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\obj\Debug\net6.0\obligatorioGestionReservaHotel.AssemblyInfo.cs
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\obj\Debug\net6.0\obligatorioGestionReservaHotel.csproj.CoreCompileInputs.cache
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\obj\Debug\net6.0\obligatorioGestionReservaHotel.sourcelink.json
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\bin\Debug\net6.0\obligatorioGestionReservaHotel.exe
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\bin\Debug\net6.0\obligatorioGestionReservaHotel.deps.json
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\bin\Debug\net6.0\obligatorioGestionReservaHotel.runtimeconfig.json
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\bin\Debug\net6.0\obligatorioGestionReservaHotel.dll
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\bin\Debug\net6.0\obligatorioGestionReservaHotel.pdb
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\obj\Debug\net6.0\obligatorioGestionReservaHotel.dll
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\obj\Debug\net6.0\refint\obligatorioGestionReservaHotel.dll
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\obj\Debug\net6.0\obligatorioGestionReservaHotel.pdb
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\obj\Debug\net6.0\obligatorioGestionReservaHotel.genruntimeconfig.cache
+C:\Users\Equipo\source\repos\obligatorioGestionReservaHotel\obligatorioGestionReservaHotel\obj\Debug\net6.0\ref\obligatorioGestionReservaHotel.dll

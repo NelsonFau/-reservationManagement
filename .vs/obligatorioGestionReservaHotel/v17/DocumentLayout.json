@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|c:\\users\\equipo\\source\\repos\\obligatoriogestionreservahotel\\obligatoriogestionreservahotel\\controlreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|solutionrelative:obligatoriogestionreservahotel\\controlreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|c:\\users\\equipo\\source\\repos\\obligatoriogestionreservahotel\\obligatoriogestionreservahotel\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|solutionrelative:obligatoriogestionreservahotel\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|c:\\users\\equipo\\source\\repos\\obligatoriogestionreservahotel\\obligatoriogestionreservahotel\\precargahabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|solutionrelative:obligatoriogestionreservahotel\\precargahabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|c:\\users\\equipo\\source\\repos\\obligatoriogestionreservahotel\\obligatoriogestionreservahotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|solutionrelative:obligatoriogestionreservahotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|c:\\users\\equipo\\source\\repos\\obligatoriogestionreservahotel\\obligatoriogestionreservahotel\\loginusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|solutionrelative:obligatoriogestionreservahotel\\loginusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|c:\\users\\equipo\\source\\repos\\obligatoriogestionreservahotel\\obligatoriogestionreservahotel\\usuario1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|solutionrelative:obligatoriogestionreservahotel\\usuario1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|c:\\users\\equipo\\source\\repos\\obligatoriogestionreservahotel\\obligatoriogestionreservahotel\\precargareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|solutionrelative:obligatoriogestionreservahotel\\precargareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|c:\\users\\equipo\\source\\repos\\obligatoriogestionreservahotel\\obligatoriogestionreservahotel\\habitaci\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|solutionrelative:obligatoriogestionreservahotel\\habitaci\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|c:\\users\\equipo\\source\\repos\\obligatoriogestionreservahotel\\obligatoriogestionreservahotel\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64173DB3-0056-4C1B-A32A-84F908AF7717}|obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel.csproj|solutionrelative:obligatoriogestionreservahotel\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\Menu.cs",
+              "RelativeDocumentMoniker": "obligatorioGestionReservaHotel\\Menu.cs",
+              "ToolTip": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\Menu.cs",
+              "RelativeToolTip": "obligatorioGestionReservaHotel\\Menu.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAqwHYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T22:29:50.533Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "precargaReserva.cs",
+              "DocumentMoniker": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\precargaReserva.cs",
+              "RelativeDocumentMoniker": "obligatorioGestionReservaHotel\\precargaReserva.cs",
+              "ToolTip": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\precargaReserva.cs",
+              "RelativeToolTip": "obligatorioGestionReservaHotel\\precargaReserva.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T00:40:35.754Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\Program.cs",
+              "RelativeDocumentMoniker": "obligatorioGestionReservaHotel\\Program.cs",
+              "ToolTip": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\Program.cs",
+              "RelativeToolTip": "obligatorioGestionReservaHotel\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:12:47.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario1.cs",
+              "DocumentMoniker": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\Usuario1.cs",
+              "RelativeDocumentMoniker": "obligatorioGestionReservaHotel\\Usuario1.cs",
+              "ToolTip": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\Usuario1.cs",
+              "RelativeToolTip": "obligatorioGestionReservaHotel\\Usuario1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:10:22.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrecargaHabitacion.cs",
+              "DocumentMoniker": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\PrecargaHabitacion.cs",
+              "RelativeDocumentMoniker": "obligatorioGestionReservaHotel\\PrecargaHabitacion.cs",
+              "ToolTip": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\PrecargaHabitacion.cs",
+              "RelativeToolTip": "obligatorioGestionReservaHotel\\PrecargaHabitacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T02:59:22.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "loginUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\loginUsuario.cs",
+              "RelativeDocumentMoniker": "obligatorioGestionReservaHotel\\loginUsuario.cs",
+              "ToolTip": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\loginUsuario.cs",
+              "RelativeToolTip": "obligatorioGestionReservaHotel\\loginUsuario.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAAFQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T02:38:58.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\Reserva.cs",
+              "RelativeDocumentMoniker": "obligatorioGestionReservaHotel\\Reserva.cs",
+              "ToolTip": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\Reserva.cs",
+              "RelativeToolTip": "obligatorioGestionReservaHotel\\Reserva.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T14:00:05.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Habitaci\u00F3n.cs",
+              "DocumentMoniker": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\Habitaci\u00F3n.cs",
+              "RelativeDocumentMoniker": "obligatorioGestionReservaHotel\\Habitaci\u00F3n.cs",
+              "ToolTip": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\Habitaci\u00F3n.cs",
+              "RelativeToolTip": "obligatorioGestionReservaHotel\\Habitaci\u00F3n.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T13:53:35.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "controlReserva.cs",
+              "DocumentMoniker": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\controlReserva.cs",
+              "RelativeDocumentMoniker": "obligatorioGestionReservaHotel\\controlReserva.cs",
+              "ToolTip": "C:\\Users\\Equipo\\source\\repos\\obligatorioGestionReservaHotel\\obligatorioGestionReservaHotel\\controlReserva.cs",
+              "RelativeToolTip": "obligatorioGestionReservaHotel\\controlReserva.cs",
+              "ViewState": "AgIAAPwBAAAAAAAAAAAAAPwBAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:44:25.374Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
