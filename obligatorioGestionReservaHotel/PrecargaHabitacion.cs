@@ -23,6 +23,16 @@ namespace obligatorioGestionReservaHotel
             precargaHabitaciones.Add(new Habitación(108, "Doble", 4, 150));
             precargaHabitaciones.Add(new Habitación(109, "Suite", 6, 200));
             precargaHabitaciones.Add(new Habitación(110, "Simple", 2, 100));
+            precargaHabitaciones.Add(new Habitación(111, "Doble", 4, 150));
+            precargaHabitaciones.Add(new Habitación(112, "Suite", 6, 200));
+            precargaHabitaciones.Add(new Habitación(113, "Simple", 2, 100));
+            precargaHabitaciones.Add(new Habitación(114, "Doble", 4, 150));
+            precargaHabitaciones.Add(new Habitación(115, "Suite", 6, 200));
+            precargaHabitaciones.Add(new Habitación(116, "Simple", 2, 100));
+            precargaHabitaciones.Add(new Habitación(117, "Doble", 4, 150));
+            precargaHabitaciones.Add(new Habitación(118, "Suite", 6, 200));
+            precargaHabitaciones.Add(new Habitación(119, "Simple", 2, 100));
+            precargaHabitaciones.Add(new Habitación(120, "Doble", 4, 150));
             return precargaHabitaciones;
             
         }

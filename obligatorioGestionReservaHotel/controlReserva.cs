@@ -15,9 +15,9 @@ namespace obligatorioGestionReservaHotel
     {
 
 
-        public List<Reserva> Reservas = new List<Reserva>();
-        public List<Habitación> habitaciones = new List<Habitación>();
-        public List<Huesped> huespedes = new List<Huesped>();
+        public List<Reserva> Reservas { get; private set; } = new List<Reserva>();
+        public List<Habitación> habitaciones { get; private set; } = new List<Habitación>();
+        public List<Huesped> huespedes { get; private set; } = new List<Huesped>();
 
         #region concatenacionDeListas 
         public void AgregarHuesped(Huesped huesped)
@@ -47,13 +47,36 @@ namespace obligatorioGestionReservaHotel
         public void unificarReserva()
         {
             PrecargaReserva precargaReserva = new PrecargaReserva();
-            var reservas = precargaReserva.PrecargaReservas();
+            var reservas = precargaReserva.ObtenerReservas();
             foreach (var reserva in reservas)
             {
                 AgregarReserva(reserva);
+                if (!huespedes.Exists(h => h.Documento == reserva.Huesped.Documento))
+                {
+                    huespedes.Add(reserva.Huesped);
+                }
             }
         }
         #endregion
+
+        public List<Habitación> ObtenerHabitacionesLibres()
+        {
+
+            Console.Clear();
+            unificarReserva();
+            DateTime fechaActual = DateTime.Today;
+
+            var habitacionesOcupadasHoy = Reservas
+                .Where(r => r.FechaI <= fechaActual && r.FechaF >= fechaActual)
+                .Select(r => r.Habitacion)
+                .ToList(); 
+
+            var habitacionesLibres = habitaciones
+                .Where(h => !habitacionesOcupadasHoy.Contains(h))
+                .ToList();
+
+            return habitacionesLibres;
+        }
 
         public void FiltroDisponibilidad()
         {
@@ -139,9 +162,10 @@ namespace obligatorioGestionReservaHotel
 
         public void Rerservar()
         {
-            Console.Clear();
+
             unificarReserva();
             UnificarHabitacion();
+            Console.Clear();
 
             Console.Write("Ingresa tu datos para la reserva");
             Console.WriteLine("");
@@ -232,11 +256,20 @@ namespace obligatorioGestionReservaHotel
             {
                 Console.Write("Ingresa la fecha de finalización de la reserva (YYYY-MM-DD): ");
                 string? finalRString = Console.ReadLine();
-                if (!DateTime.TryParseExact(finalRString, formatoFecha, CultureInfo.InvariantCulture, DateTimeStyles.None, out finalResrva) || finalResrva <= inicioReserva)
+
+               if (!DateTime.TryParseExact(finalRString, formatoFecha, CultureInfo.InvariantCulture, DateTimeStyles.None, out finalResrva) || finalResrva <= inicioReserva)
                 {
                     Console.WriteLine("Fecha no válida o la fecha final debe ser posterior a la de inicio. Intente de nuevo.");
                 }
             } while (finalResrva <= inicioReserva);
+
+            if ((finalResrva - inicioReserva).TotalDays > 30)
+            {
+                Console.WriteLine("La reserva no puede exceder los 30 días consecutivos. Intente nuevamente.");
+                Console.ReadKey();
+                return;
+            }
+
 
             if (inicioReserva >= DateTime.Now && finalResrva > DateTime.Now)
             {
@@ -273,7 +306,7 @@ namespace obligatorioGestionReservaHotel
             }
             else
             {
-                Console.WriteLine("Las fechas ingresadas no pueden ser en el posterior a este dia. Intente nuevamente.");
+                Console.WriteLine("Las reservaciones son con un día de anticipación. Intente nuevamente. ");
             }
             Console.ReadKey();
         }

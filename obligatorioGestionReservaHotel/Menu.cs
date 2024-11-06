@@ -12,9 +12,10 @@ namespace obligatorioGestionReservaHotel
         PrecargaUser probando = new PrecargaUser();
         List<Reserva> reservas = new List<Reserva>();
         ControlReserva controlResrevas = new ControlReserva();
-       
 
-        
+
+
+
 
         public void mostrarMenu()
         {
@@ -39,8 +40,8 @@ namespace obligatorioGestionReservaHotel
                             reservar();
                             break;
                         case 2:
-                            //recuperarCuenta();
-                            break;                      
+                            estadisticas();
+                            break;
                         case 3:
                             Environment.Exit(0);
                             break;
@@ -80,8 +81,8 @@ namespace obligatorioGestionReservaHotel
                 int opcion;
 
                 opcionParse = Console.ReadLine();
-                
-                if(!int.TryParse(opcionParse, out opcion))
+
+                if (!int.TryParse(opcionParse, out opcion))
                 {
                     Console.WriteLine("Por favor, ingrese un número válido. Presione una tecla para continuar.");
                     Console.ReadKey();
@@ -107,7 +108,7 @@ namespace obligatorioGestionReservaHotel
                             break;
                         default:
                             Console.WriteLine("Opción ingresada es incorrecta, vuelve a intentarlo.");
-                            Console.ReadKey();  
+                            Console.ReadKey();
                             break;
 
                     }
@@ -116,6 +117,57 @@ namespace obligatorioGestionReservaHotel
             }
         }
 
-        
+        public void estadisticas()
+        {
+            Reportes reportes = new Reportes(controlResrevas);
+            controlResrevas.unificarReserva();
+            controlResrevas.UnificarHabitacion();
+
+            bool salir = false;
+            while (!salir)
+            {
+                Console.Clear();
+                Console.WriteLine("*Estadisticas y reportes*");
+                Console.WriteLine("");
+                Console.WriteLine("1. listar huéspedes.");
+                Console.WriteLine("2. listar habitaciones disponibles");
+                Console.WriteLine("3. historial de reservas");
+                Console.WriteLine("4. listar habitaciones más reservadas");
+                Console.WriteLine("5. salir");
+                Console.Write("Ingrese la opción deseada; ");
+
+                string? entrada = Console.ReadLine();
+                if (int.TryParse(entrada, out int opcion))
+                {
+                    switch (opcion)
+                    {
+                        case 1:
+                            reportes.listarHuesped();
+                            break;
+                        case 2:
+                            reportes.ListarHabitacionesLibres();
+                            break;
+                        case 3:
+                            reportes.MostrarHistorialReservas();
+                            break;
+                        case 4:
+                            reportes.MostrarHabitacionesConMasReservas();
+                            break;
+                        case 5:
+                            salir = true;
+                            break;
+                        default:
+                            Console.WriteLine("Opción no válida. Presione una tecla para continuar.");
+                            Console.ReadKey();
+                            break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Por favor, ingrese un número válido. Presione una tecla para continuar.");
+                    Console.ReadKey();
+                }
+            }
+        }
     }
 }

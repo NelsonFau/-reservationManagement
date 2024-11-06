@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="obligatorioGestionReservaHotel.ControlReserva">
+    <Position X="1" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQABQAaAQBAAAAAAAgABQAghAAAACAAAACAAABAAAA=</HashCode>
+      <FileName>controlReserva.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="habitaciones" />
+      <Property Name="huespedes" />
+      <Property Name="Reservas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="obligatorioGestionReservaHotel.Habitación">
+    <Position X="13.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAABBIA=</HashCode>
+      <FileName>Habitación.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="obligatorioGestionReservaHotel.Huesped">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAgAEEAAQAgAAAAAAAAAACAAAAAgAAAAA=</HashCode>
+      <FileName>Huesped.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="obligatorioGestionReservaHotel.loginUsuario">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEAAAAAAAAAAAAABIAAAAAAAAAAAAABAAAAAAAAAEhA=</HashCode>
+      <FileName>loginUsuario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="login" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="listaUsuario" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="obligatorioGestionReservaHotel.Menu">
+    <Position X="1.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAEQAAAAABAAAAAAEAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="controlResrevas" />
+      <Field Name="probando" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="reservas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="obligatorioGestionReservaHotel.Pago">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAABAAAAgAAAAAAABAAIAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pago.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IdReserva" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="obligatorioGestionReservaHotel.PrecargaHabitacion">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrecargaHabitacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="obligatorioGestionReservaHotel.PrecargaReserva">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>precargaReserva.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="reservas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="obligatorioGestionReservaHotel.PrecargaUser">
+    <Position X="3.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrecargaUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="obligatorioGestionReservaHotel.Reportes">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAECAgAAABAAAAAAAAAAAAAAAAAAACAABIAAAAAAA=</HashCode>
+      <FileName>Reportes.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_controlReserva" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="obligatorioGestionReservaHotel.Reserva">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAwAEEAAAABAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Reserva.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Habitacion" />
+      <Property Name="Huesped" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="obligatorioGestionReservaHotel.Usuario">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAkAAAAAQAgAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Usuario1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

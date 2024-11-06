@@ -32,8 +32,13 @@ namespace obligatorioGestionReservaHotel
             Pais = pais;
         }
 
+        public override string ToString()
+        {
+            return $"ID: {ID}, Nombre: {Nombre}, Documento: {Documento}, Fecha de Nacimiento: {Fecha.ToShortDateString()}, Teléfono: {Telefono}, País: {Pais}";
         }
 
+    }
 
-      
+
+
 }
